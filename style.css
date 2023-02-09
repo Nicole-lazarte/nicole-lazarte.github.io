@@ -14,7 +14,7 @@
   float: left;
   display: block;
   text-align: center;
-  width: 100px; /* fixed width */
+  width: 100px;
   text-decoration: none;
   color: white;
 }
@@ -97,9 +97,6 @@ td{
   text-align: center;
 }
 
-/*#right {
-  padding: 40px;
-}*/
 .vertical {
   border-right: 1px solid #B3B6E3;
   height: 100%;
@@ -114,11 +111,8 @@ td{
   width:100%;
   text-align:center;
 
-  /*display: flex;
-  border-top: solid 1px #B3B6E3;
-  flex-wrap: wrap;
-  justify-content: center;*/
 }
+
 .footer p {
   width: 500px;
   height: 20px;
