@@ -1,4 +1,4 @@
-body{
+/*body{
   background-color: #F1FFE8;
 }
 .navigation ul {
@@ -125,11 +125,156 @@ td{
   background: linear-gradient(white, #D8D5ED);
   margin-left:auto;
   margin-right:auto;
-}*/
+}
 
 progress{
   width: 200%;
   height: 20px;
 }
+*/
 
-/*hello*/
+
+
+
+
+body{
+    background-color: #F1FFE8;
+  }
+
+  #navigation ul {
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navigation a{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 100px; /* fixed width */
+    text-decoration: none;
+    color: white;
+  }
+
+  a{
+    color: #7F6EAC;
+  }
+
+  a:hover{
+    background-color: #B3B6E3;
+    color:white;
+  }
+  
+  #navigation {
+    background-color: #D8D5ED;
+    border-top: solid #B3B6E3;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-bottom: solid #B3B6E3 1px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .leftcolumn{
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .rightcolumn{
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media only screen and (max-width: 600px) {
+    .rightcolumn, .leftcolumn{
+      width: 100%;
+    }
+  }
+  
+  th{
+    text-align: left;
+    
+  }
+  td{
+    text-align: right;
+  }
+  
+  .lowerright{
+    text-align: right;
+  }
+  .lowerleft{
+    width: 80%;
+    text-align: left;
+  }
+  
+  #left img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  #left ul {
+    margin: 0px;
+    list-style-type: none;
+  }
+  
+  #left li {
+    text-align: center;
+  }
+  
+  .vertical {
+    border-left: 1px solid #B3B6E3;
+    height: 75%;
+    margin-bottom: 2%;
+    margin-top:2%;
+    /*position:absolute;*/
+    left: 50%;
+    position: fixed;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .vertical{
+      transform: rotate(90deg);
+      border-bottom: 1px solid #B3B6E3;
+      height: 700px;
+      border-right:transparent;
+      
+
+    }
+  }
+  
+  .footer {
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    border-top:1px solid #B3B6E3;
+    text-align:center;
+  }
+  
+  .footer p {
+    width: 500px;
+    height: 20px;
+    background: linear-gradient(white, #D8D5ED);
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  progress{
+    width: 200%;
+    height: 20px;
+  }
